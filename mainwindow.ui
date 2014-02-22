@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>718</width>
+    <height>499</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>403</width>
+      <height>403</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>10</y>
+      <width>231</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>6</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777214</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Terminal</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Terminal'; font-size:18pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'MS Shell Dlg 2'; color:#b80119;&quot;&gt;Player 1&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; color:#b80119;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>208</width>
+         <height>45</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Pass</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>208</width>
+         <height>18</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>46</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>401</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="4" column="0">
+      <widget class="Piece" name="widget17" native="true"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="Piece" name="widget20" native="true"/>
+     </item>
+     <item row="2" column="7">
+      <widget class="Piece" name="widget8" native="true"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="Piece" name="widget41" native="true"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="Piece" name="widget10" native="true"/>
+     </item>
+     <item row="6" column="7">
+      <widget class="Piece" name="widget40" native="true"/>
+     </item>
+     <item row="7" column="3">
+      <widget class="Piece" name="widget44" native="true"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="Piece" name="widget4" native="true"/>
+     </item>
+     <item row="5" column="7">
+      <widget class="Piece" name="widget32" native="true"/>
+     </item>
+     <item row="5" column="3">
+      <widget class="Piece" name="widget28" native="true"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="Piece" name="widget49" native="true"/>
+     </item>
+     <item row="2" column="5">
+      <widget class="Piece" name="widget6" native="true"/>
+     </item>
+     <item row="4" column="7">
+      <widget class="Piece" name="widget24" native="true"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="Piece" name="widget1" native="true">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="Piece" name="widget16" native="true"/>
+     </item>
+     <item row="4" column="5">
+      <widget class="Piece" name="widget22" native="true"/>
+     </item>
+     <item row="9" column="5">
+      <widget class="Piece" name="widget62" native="true"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="Piece" name="widget57" native="true"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="Piece" name="widget33" native="true"/>
+     </item>
+     <item row="6" column="5">
+      <widget class="Piece" name="widget38" native="true"/>
+     </item>
+     <item row="8" column="5">
+      <widget class="Piece" name="widget54" native="true"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="Piece" name="widget19" native="true"/>
+     </item>
+     <item row="8" column="3">
+      <widget class="Piece" name="widget52" native="true"/>
+     </item>
+     <item row="8" column="7">
+      <widget class="Piece" name="widget56" native="true"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="Piece" name="widget12" native="true"/>
+     </item>
+     <item row="9" column="3">
+      <widget class="Piece" name="widget60" native="true"/>
+     </item>
+     <item row="5" column="5">
+      <widget class="Piece" name="widget30" native="true"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="Piece" name="widget25" native="true"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="Piece" name="widget9" native="true"/>
+     </item>
+     <item row="6" column="3">
+      <widget class="Piece" name="widget36" native="true"/>
+     </item>
+     <item row="3" column="5">
+      <widget class="Piece" name="widget14" native="true"/>
+     </item>
+     <item row="7" column="5">
+      <widget class="Piece" name="widget46" native="true"/>
+     </item>
+     <item row="3" column="4">
+      <widget class="Piece" name="widget13" native="true"/>
+     </item>
+     <item row="7" column="7">
+      <widget class="Piece" name="widget48" native="true"/>
+     </item>
+     <item row="3" column="6">
+      <widget class="Piece" name="widget15" native="true"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="Piece" name="widget34" native="true"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="Piece" name="widget26" native="true"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="Piece" name="widget27" native="true"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="Piece" name="widget35" native="true"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="Piece" name="widget42" native="true"/>
+     </item>
+     <item row="7" column="2">
+      <widget class="Piece" name="widget43" native="true"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="Piece" name="widget50" native="true"/>
+     </item>
+     <item row="8" column="2">
+      <widget class="Piece" name="widget51" native="true"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="Piece" name="widget58" native="true"/>
+     </item>
+     <item row="9" column="2">
+      <widget class="Piece" name="widget59" native="true"/>
+     </item>
+     <item row="9" column="4">
+      <widget class="Piece" name="widget61" native="true"/>
+     </item>
+     <item row="8" column="4">
+      <widget class="Piece" name="widget53" native="true"/>
+     </item>
+     <item row="7" column="4">
+      <widget class="Piece" name="widget45" native="true"/>
+     </item>
+     <item row="6" column="4">
+      <widget class="Piece" name="widget37" native="true"/>
+     </item>
+     <item row="5" column="4">
+      <widget class="Piece" name="widget29" native="true"/>
+     </item>
+     <item row="4" column="4">
+      <widget class="Piece" name="widget21" native="true"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="Piece" name="widget18" native="true"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="Piece" name="widget11" native="true"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="Piece" name="widget2" native="true"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="Piece" name="widget3" native="true"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="Piece" name="widget5" native="true"/>
+     </item>
+     <item row="2" column="6">
+      <widget class="Piece" name="widget7" native="true"/>
+     </item>
+     <item row="4" column="6">
+      <widget class="Piece" name="widget23" native="true"/>
+     </item>
+     <item row="5" column="6">
+      <widget class="Piece" name="widget31" native="true"/>
+     </item>
+     <item row="6" column="6">
+      <widget class="Piece" name="widget39" native="true"/>
+     </item>
+     <item row="7" column="6">
+      <widget class="Piece" name="widget47" native="true"/>
+     </item>
+     <item row="8" column="6">
+      <widget class="Piece" name="widget55" native="true"/>
+     </item>
+     <item row="9" column="6">
+      <widget class="Piece" name="widget63" native="true"/>
+     </item>
+     <item row="9" column="7">
+      <widget class="Piece" name="widget64" native="true"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>430</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionPlayer_vs_Player">
+   <property name="text">
+    <string>Player vs. Player</string>
+   </property>
+  </action>
+  <action name="actionPlayer_vs_Computer">
+   <property name="text">
+    <string>Player vs. Computer</string>
+   </property>
+  </action>
+  <action name="actionComputer_vs_Computer">
+   <property name="text">
+    <string>Computer vs. Computer</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Piece</class>
+   <extends>QWidget</extends>
+   <header>piece.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
